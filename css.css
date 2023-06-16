@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "raleway",Arial, sans-serif;
+}
+.pics1{
+    width: 49.95%;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0;
+    /* height: 120vh !important; */
+}
+.monkey{
+    height: 448.52px;
+}
+.einstien{
+    height: 450px;
+}
+.heart{
+    height: 522.75px;
+}
+.pics2{
+    width: 50.05%;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+.allpic{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+}
+.intro{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items:center ;
+}
+.pic{
+    margin-bottom: -8px !important;
+}
+.art{
+    font-family: "raleway",Arial, sans-serif;
+    font-weight: 100;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+    padding-left: 0.5px;
+}
+.about{
+    font-family: "raleway",Arial, sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    width: 132px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding-bottom: 2px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.formmain{
+    display: flex !important;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2f2;
+}
+.boy{
+    width: 300px;
+    margin-left: 1px;
+    height: 360px;
+    margin-bottom: 47px;
+}
+.warning{
+    font-size: 18px;
+    font-weight: 100;
+    color: red;
+    font-family: "raleway",Arial, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 21px;
+}
+.text{
+    width: 99.75%;
+    height: 39px;
+    border: 1.5px #ccc1cc2c solid;
+    background-color: rgb(255, 255, 240);
+    opacity: 70%;
+    box-shadow: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    border-color: #ccc;
+}
+.button{
+    background-color: black;
+    color: white;
+    opacity: 61%;
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    margin-top: -3px;
+}
+button:hover{
+    background-color: black;
+    opacity: 15%;
+    color: black !important;
+    font-weight: 900;
+    box-shadow: none;
+    border-width: 0px;
+}
+.inputtext{
+    font-weight: 900 !important;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+.aboutme{
+    font-size: 15px;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+.aboutdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 161px;
+}
+.about2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    width: 9.75%;
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    font-size: 30px !important;
+}
+.powereddiv{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    width: 5px !important;
+}
+.link:hover{
+    color: rgb(33, 189, 33);
+}
+.powered{
+    font-size: 15px;
+    padding-bottom: 40px !important; 
+}
+@media screen and (max-width: 600px) {
+    .allpic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pics1{
+        width: 100% !important;
+    }
+    .pics2{
+        width: 100% !important;
+    }
+    .einstien{
+        height: 69.1vh;
+    }
+    .heart{
+        height: 80.5vh;
+    }
+    .monkey{
+        height: 69.1vh;
+    }
+    .boy{
+        margin-left: 0;
+        margin-bottom: 47.5px;
+    }
+    .button{
+        border: 0px;
+    }
+    .aboutme{
+        line-height: 1.490em;
+    }
+    .text{
+        width: 99.5%;
+    }
+}
